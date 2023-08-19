@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;900&family=Roboto:wght@700;900&display=swap');
+* {
+    margin: 0;
+}
+.banner {
+    width: 1440px;
+    height: 605px;
+    border-bottom: 1px solid #33A8DB;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%), url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-color:#1a0d35;
+}
+.bannerContent {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    margin-top: 5%;
+    
+    
+}
+.logo {
+    width: 268px;
+    height: 268px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.20);
+}
+h1 {
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+}
+#p1{
+    line-height: normal;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width: 510px;
+    text-align: center;
+}
+button {
+    width: 336px;
+    padding: 19px 91px;
+    background-color: transparent;
+    border-color: #31A8DD;
+    mask-border-width: 1px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3.36px;
+    font-size: 16px;
+}
+.bodyContainner1 {
+    width: 1440px;
+    height: 1950px;
+    background-color: black;
+    align-items: center;
+}
+.conteudo {
+    margin-top: 10%;
+    width: 100%;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+#p2 {
+    margin-top: 20px;
+    line-height: normal;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 792px;
+    text-align: center;
+}
+.modulo {
+    margin-top: 2%;
+    display: flex;
+    width: 420px;
+    padding: 16px 127px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+}
+a {
+    text-decoration: none;
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+#p3{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mulher {
+    width: 1439px;
+    height: 460px;
+    flex-shrink: 0;
+    background: url(../img/woman-code.png);
+    background-size: cover;
+    background-position: center;
+    border-top: solid 1px #33A8DB;
+    border-bottom: solid 1px #33A8DB;
+}
+#transforme{
+    position: relative;
+    top:33%;
+    left: 20%;;
+}
+#p4 {
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.evolua {
+    width: 1440px;
+    height: 400px;
+    background-color: #000;
+}
+#p5 {
+    margin-top: 5%;
+    color: #33A8DB;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 6.08px;
+}
+.tecnologia {
+    width: 659px;
+    height: 429px;
+    flex-shrink: 0;
+    background: url(../img/professional-challenges.png);
+    position: relative;
+    left: 25%;
+}
+#p6 {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.rodape {
+    align-items: center;
+    margin-top: 18%;
+    width: 1440px;
+    height: 170px;
+    flex-shrink: 0;
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
+.dio {
+    margin-top: 4%;
+    width: 300px;
+    height: 45px;
+    background: url(../img/dio-logo.png) no-repeat;
+    position: relative;
+    left: 560px;
+}
+#p7 {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
